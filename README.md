@@ -41,12 +41,12 @@ Needs Linux with a modern kernel (io_uring, `splice`, `copy_file_range`,
 **Unmaintained (2025 snapshot) — kept as an archive.** This is *not* deprecated in the
 technology sense: `io_uring`, `splice` and `copy_file_range` are all current 2026 Linux
 interfaces, and there is no TensorFlow-1/fastai/Vue-style rot. What it *is* is an
-unfinished personal experiment — last touched 2025-12, no README, no LICENSE, no tests,
-no CI, `filesvr.py` is a stub, and `http.c` is unsafe by construction. Read it as a
+unfinished personal experiment — last touched 2025-12, no tests or CI,
+`filesvr.py` is a stub, and `http.c` is unsafe by construction. Read it as a
 snapshot of low-level I/O work, not as a maintained tool.
 
 ### License
 
-No LICENSE file was ever added. The MD5 block in `basic.c` is an explicitly
+GNU AGPL-3.0-only; see [LICENSE](LICENSE). The MD5 block in `basic.c` is an explicitly
 "public-domain style" compact snippet; everything else appears to be the author's own
-code. A license must be chosen before publishing.
+code.
