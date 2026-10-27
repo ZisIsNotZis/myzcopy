@@ -7,8 +7,8 @@ inspectable instead of rotting. Copied — the original was not modified.
 
 ## Status
 
-See `README.md` for what it is and an honest status line (`deprecated (<year> era)
-- kept as an archive` where applicable).
+Unmaintained, kept as an archive. What it is, how to build it and its limits are
+in `README.md`; this file records only why the repository exists in this form.
 
 ## Evidence
 
